@@ -8,22 +8,22 @@ function Navbar(){
     </div>
     <ul className="menu flex items-center sm:font-semibold sm:text-lg gap-1 sm:gap-4 md:gap-6 lg:gap-10 sm:pr-3 md:pr-4 lg:pr-10 xl:pr-20 pr-0 ">
       <li>
-        <a href="">
+        <a href="#home">
           Home
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="#about">
           About
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="#project">
           Project
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="#contact">
           Contact
         </a>
       </li>

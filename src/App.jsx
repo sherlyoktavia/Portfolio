@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-    <div className="home lg:mt-10 py-30 sd:py-20 md:py-30 z-20" >
+    <div className="home lg:mt-10 py-30 sd:py-20 md:py-30 z-20" id="home">
         <div className="flex  items-center justify-between sm:mx-4 md:mx-10 lg:mx-30">
           <div className="flex flex-col justify-center">
             <div className="animate__animated animate__slideInUp">
@@ -32,8 +32,8 @@ function App() {
               <p className="md:text-2xl md:mb-3 sm:mr-5 sm:mb-2 font-light">A passionate <span className="font-bold">UI/UX Designer</span>, <span className="font-bold">Frontend Developer</span>, and <span className="font-bold">Data Scientist</span></p>
             </div>
             <div className=" button p-4 md:p-10 flex gap-10 md:gap-20 animate__animated animate__fadeInUp animate__delay-1s">
-              <a href="" className="bg-sky-700/30 rounded-xl p-2 md:p-4 xl:font-semibold">Download CV</a>
-              <a href="" className="bg-sky-700/30 rounded-xl p-2 md:p-4 xl:font-semibold">Let's Connect</a>
+              <a href="https://drive.google.com/file/d/1AYIY7qO1dpIUrvTDDaxwzn6xc_S2Pg_4/view?usp=sharing" target="_blank" className="bg-sky-700/30 rounded-xl p-2 md:p-4 xl:font-semibold">Download CV</a>
+              <a href="https://www.linkedin.com/in/sherlyoktaviawillisa/" target="_blank" className="bg-sky-700/30 rounded-xl p-2 md:p-4 xl:font-semibold">Let's Connect</a>
             </div>
           </div>
           <img src={Photo2} alt="Foto Profil" className="opacity-30 w-20 sm:w-30 md:w-60 animate__animated animate__fadeInUp animate__delay-2s"/>
@@ -41,7 +41,7 @@ function App() {
     </div>
 
         {/* About */}
-      <div className="about pt-7 sm:pt-10 flex flex-col items-center z-20" data-aos="fade-up">
+      <div className="about pt-7 sm:pt-10 flex flex-col items-center z-20" data-aos="fade-up" id="about">
         <div>
           <p className="sm:text-2xl md:text-5xl font-bold sm:pd-2 md:p-3 text-center">Get to Know</p>
           <p className="md:text-4xl font-bold text-center">About Me</p>
@@ -80,7 +80,7 @@ function App() {
 
       {/* Project */}
       <div className="project pt-30 z-20">
-        <p className="text-2xl md:text-5xl font-bold text-center pb-5 md:pb-10" data-aos="fade-in">My Project</p>
+        <p className="text-2xl md:text-5xl font-bold text-center pb-5 md:pb-10" data-aos="fade-in" id="project">My Project</p>
       <div>
         <div className="border rounded-2xl border-zinc-800/70 items-center mx-7 mb-2 p-2 lg:mx-30 md:mb-7 md:p-4 flex gap-5" data-aos="fade-right">
           <div className="flex flex-col">
@@ -128,7 +128,7 @@ function App() {
 
       {/* Contact */}
       <div className="contact py-30 items-center flex flex-col z-20">
-        <div className="items-center text-center mb-10" data-aos="fade-In">
+        <div className="items-center text-center mb-10" data-aos="fade-In" id="contact">
           <p className="text-2xl font-bold">Get in Touch</p>
           <p className="text-4xl font-black">Contact Me</p>
         </div>
