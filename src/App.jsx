@@ -32,8 +32,8 @@ function App() {
               <p className="md:text-2xl md:mb-3 sm:mr-5 sm:mb-2 font-light">A passionate <span className="font-bold">UI/UX Designer</span>, <span className="font-bold">Frontend Developer</span>, and <span className="font-bold">Data Scientist</span></p>
             </div>
             <div className=" button p-4 md:p-10 flex gap-10 md:gap-20 animate__animated animate__fadeInUp animate__delay-1s">
-              <a href="https://drive.google.com/file/d/1AYIY7qO1dpIUrvTDDaxwzn6xc_S2Pg_4/view?usp=sharing" target="_blank" className="bg-sky-100 hover:bg-sky-700/60 hover:text-white rounded-xl p-2 md:p-4 xl:font-semibold">Download CV</a>
-              <a href="https://www.linkedin.com/in/sherlyoktaviawillisa/" target="_blank" className="bg-sky-100 hover:bg-sky-700/60 hover:text-white rounded-xl p-2 md:p-4 xl:font-semibold">Let's Connect</a>
+              <a href="https://drive.google.com/file/d/1AYIY7qO1dpIUrvTDDaxwzn6xc_S2Pg_4/view?usp=sharing" target="_blank" className="border border-zinc-500 bg-sky-100 hover:bg-sky-700/60 hover:text-white rounded-xl p-2 md:p-4 xl:font-semibold">Download CV</a>
+              <a href="https://www.linkedin.com/in/sherlyoktaviawillisa/" target="_blank" className="border border-zinc-500 bg-sky-100 hover:bg-sky-700/60 hover:text-white rounded-xl p-2 md:p-4 xl:font-semibold">Let's Connect</a>
             </div>
           </div>
           <img src={Photo2} alt="Foto Profil" className="opacity-30 w-20 sm:w-30 md:w-60 animate__animated animate__fadeInUp animate__delay-2s"/>
