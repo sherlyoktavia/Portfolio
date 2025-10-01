@@ -1,6 +1,14 @@
-const Footer = () => {
+import { useEffect } from 'react';
+
+function Footer(){
+    useEffect(() => {
+      AOS.init({
+        duration: 800, // durasi animasi (ms)
+        once: true,     // animasi hanya jalan sekali
+      });
+    }, []);
   return (
-    <div className="footer py-4 sm:py-10 text-center border-t-2 border-zinc-300">
+    <div className="footer py-4 sm:py-10 text-center border-t-2 border-zinc-300" data-aos="fade-up">
         <div className="sm:flex items-center justify-between px-5 sd:px-15 md:px-30">
             {/* <div className="flex"> */}
                 <p className="opacity-50">© 2025 Sherly Oktavia Willisa.</p>

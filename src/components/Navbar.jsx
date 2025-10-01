@@ -1,6 +1,6 @@
 
-const Navbar = () => {
-  return <div className="navbar pt-10 flex items-center justify-between">
+function Navbar(){
+    return <div className="navbar pt-10 flex items-center justify-between">
     <div className="logo sm:pl-3 md:pl-4 lg:pl-10 xl:pl-20 pl-0">
       <h1 className=" sm:text-3xl font-bold">
         Portfolio
