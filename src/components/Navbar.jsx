@@ -6,7 +6,7 @@ function Navbar(){
         Portfolio
       </h1>
     </div>
-    <ul className="menu flex items-center sm:font-semibold sm:text-lg gap-1 sm:gap-4 md:gap-6 lg:gap-10 sm:pr-3 md:pr-4 lg:pr-10 xl:pr-20 pr-0 ">
+    <ul className="menu items-center hidden md:display md:flex gap-6 lg:gap-10 sm:pr-3 md:pr-4 lg:pr-10 xl:pr-20 pr-0 ">
       <li>
         <a href="#home">
           Home
