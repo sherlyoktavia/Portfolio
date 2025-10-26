@@ -2,7 +2,7 @@ import Photo from "./assets/Photo.jpg";
 import Photo2 from "./assets/Photo2.png";
 import Rebio from "./assets/project/rebio.png";
 import CareerSprint from "./assets/project/careersprint.png";
-import Weather from "./assets/project/weather.png";
+import Weather from "./assets/project/weather_forecast.png";
 import Sobat from "./assets/project/sobat.png";
 import {listTools} from "./data"
 
